@@ -71,7 +71,7 @@ throw new IllegalArgumentException("share price must be positive");
 */
 public void displayStockInfo(){
 System.out.println("Stock symbol :" + getStockSymbol());
-System.out.println("Share price :" + getShareSymbol());
+System.out.println("Share price :" + getSharePrice());
 }
 
 }

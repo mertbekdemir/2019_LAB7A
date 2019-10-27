@@ -75,9 +75,8 @@ return getNumberOfShares() * stock.getSharePrice();
 *method displayDetails
 */
 public void displayDetails(){
-System.out.println("Stock symbol :" + stock.getStockSymbol());
-System.out.println("Share price :" + stock.getSharePrice());
+stock.displayStockInfo();
 System.out.println("Number of shares :" + getNumberOfShares());
-System.out.println("Total cost :" + getTotalCost());
+System.out.println("Total cost of shares:" + getTotalCost());
 {
 }

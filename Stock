@@ -39,8 +39,8 @@ return stockSymbol;
 *method getSharePrice
 *return sharePrice
 */
-public double getStockSymbol(){
-return stockSymbol;
+public double getSharePrice(){
+return sharePrice;
 }
 
 /**
